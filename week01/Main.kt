@@ -1,7 +1,4 @@
-package org.example
-
-import kotlinx.coroutines.*
-import org.example.chapter14.*
+package kos.chapter14
 
 fun main() {
     nonblocking()

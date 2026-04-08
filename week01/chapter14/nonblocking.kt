@@ -1,4 +1,4 @@
-package org.example.chapter14
+package kos.chapter14
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
