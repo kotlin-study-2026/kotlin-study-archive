@@ -1,6 +1,6 @@
-package chapter14
+package kos.chapter14
 
-fun main() {
+private fun main() {
     nonblocking()
     blocking()
 }

@@ -1,4 +1,4 @@
-package chapter14
+package kos.chapter14
 
 import kotlinx.coroutines.*
 import kotlin.time.Duration.Companion.milliseconds

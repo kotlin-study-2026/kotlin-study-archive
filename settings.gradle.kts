@@ -7,3 +7,7 @@ include("week01")
 include("week_01")
 include("week01")
 include("week02")
+include("week02:kmt")
+findProject(":week02:kmt")?.name = "kmt"
+include("week02:kmt")
+findProject(":week02:kmt")?.name = "kmt"
