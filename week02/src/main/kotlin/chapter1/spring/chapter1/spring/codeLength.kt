@@ -1,4 +1,4 @@
-package kos.chapter1
+package kos.chapter1.spring.chapter1.spring
 
 // Java
 /*

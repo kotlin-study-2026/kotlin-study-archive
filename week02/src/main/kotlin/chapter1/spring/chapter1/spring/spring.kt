@@ -1,4 +1,4 @@
-package kos.chapter1
+package kos.chapter1.spring.chapter1.spring
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.boot.autoconfigure.SpringBootApplication

@@ -1,4 +1,4 @@
-package kos.chapter1
+package kos.chapter1.spring.chapter1.spring
 
 // Java
 /*
@@ -10,11 +10,14 @@ public class StringUtils {
 
 StringUtils.isEmail("test@test.com");
 */
-
 // Kotlin
+class Gmin
+
 fun String.isEmail(): Boolean {
     return this.contains("@")
 }
+
+fun Gmin.well(){}
 
 val result = "test@test.com".isEmail()
 

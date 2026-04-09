@@ -1,5 +1,7 @@
 package kos.chapter1
 
+const val message = "Hello World"
+
 private fun main(){
 
     // 자동 타입 추론
@@ -14,6 +16,7 @@ private fun main(){
     } catch(e: Exception) {
         println(e)
     } finally {
+        println(message)
         println("x = $x")
         println("y = $y")
     }
