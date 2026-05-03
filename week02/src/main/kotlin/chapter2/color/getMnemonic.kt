@@ -5,6 +5,7 @@ fun getMnemonic(color: Color): String {
         Color.RED -> "red"
         Color.BLUE  -> "blue"
         Color.GREEN -> "green"
+        Color.PURPLE -> "purple"
     }
 }
 
