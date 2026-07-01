@@ -1,6 +1,6 @@
 package kos.chapter2
 
-fun main() {
+private fun main() {
     var i = 1
     while (i <= 10) {
         println(i)
@@ -14,4 +14,20 @@ fun main() {
         j--
     } while (j > 0)
     // 10 9 8 7 6 5 4 3 2 1
+
+    val outerCondition = true
+    val innerCondition = true
+    val shouldExitInner = true
+    val shouldSkipInner = true
+    val shouldExitOuter = true
+    val shouldSkipOuter = true
+
+    outer@ while (outerCondition) {
+        while (innerCondition){
+            if(shouldExitInner) break
+            if(shouldSkipInner) continue
+            if(shouldExitOuter) break@outer
+            if(shouldSkipOuter) continue@outer
+        }
+    }
 }

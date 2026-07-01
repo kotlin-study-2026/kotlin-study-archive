@@ -24,5 +24,4 @@ fun main() {
     for (i in 1 until 10) {
         print("$i ")
     }
-
 }

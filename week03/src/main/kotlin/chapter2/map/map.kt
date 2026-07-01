@@ -16,4 +16,8 @@ private fun main() {
     // D = 1000100
     // E = 1000101
     // F = 1000110
+
+    /*for (pair in binaryReps) {
+        println("${pair.key} = ${pair.value}")
+    }*/
 }
