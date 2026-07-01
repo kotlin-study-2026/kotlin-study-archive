@@ -1,6 +1,6 @@
 package kos.chapter2.color
 
- enum class Color(
+enum class Color(
     val r : Int,
     val g : Int,
     val b : Int
@@ -8,10 +8,12 @@ package kos.chapter2.color
     RED(255, 0, 0),
     GREEN(0, 255, 0),
     PURPLE(70, 38, 121),
-    BLUE(0, 0, 255);
+    BLUE(0, 0, 255); // <- 아이템 목록과 메서드 정의를 구분하는 세미콜론
 
     fun rgb() = (r * 256 + g) * 256 + b
-    fun printColor() = println("$this ${rgb()}")
+    fun printColor() {
+        println("$this ${rgb()}")
+    }
 }
 
 fun main(){
