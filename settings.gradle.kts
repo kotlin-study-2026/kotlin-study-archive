@@ -12,3 +12,5 @@ findProject(":week02:kmt")?.name = "kmt"
 include("week02:kmt")
 findProject(":week02:kmt")?.name = "kmt"
 include("week03")
+
+include("weak04")
