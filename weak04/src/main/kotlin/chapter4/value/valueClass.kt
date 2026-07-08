@@ -1,4 +1,4 @@
-package kos.chapter3.value
+package kos.chapter4.value
 
 interface PrettyPrintable {
     fun pretty(): String
@@ -187,12 +187,19 @@ fun main() {
 
     acceptNullableUserId(userId)
     acceptNullableUserId(null)
+    // nullable UserId로 받음: value=UserId(1001), runtime=kos.chapter4.value.UserId
+    // nullable UserId로 받음: value=null, runtime=null
 
     acceptGeneric(userId)
+    // generic T로 받음: value=UserId(1001), runtime=kos.chapter4.value.UserId
 
     acceptPrettyPrintable(userId)
+    // interface로 받음: User#1001, runtime=kos.chapter4.value.UserId
 
     acceptAny(userId)
     acceptAny(folderId)
     acceptAny(10L)
+    // Any로 받음: value=UserId(1001), runtime=kos.chapter4.value.UserId
+    // Any로 받음: value=FolderId(2001), runtime=kos.chapter4.value.FolderId
+    // Any로 받음: value=10, runtime=java.lang.Long
 }
